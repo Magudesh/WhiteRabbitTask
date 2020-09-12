@@ -3,6 +3,7 @@ package com.whiterabbit.magudesh.network;
 
 import com.whiterabbit.magudesh.model.Employee;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -15,5 +16,5 @@ import retrofit2.http.Query;
 
 public interface GetEmployeeDataService {
     @GET("5d565297300000680030a986")
-    Call<List<Employee>> getEmployeeData();
+    Call<ArrayList<Employee>> getEmployeeData();
 }
